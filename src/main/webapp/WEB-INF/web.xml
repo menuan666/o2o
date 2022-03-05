@@ -49,7 +49,7 @@
             <param-name>kaptcha.image.height</param-name>
             <param-value>44</param-value>
         </init-param>
-        <!--字体大小-->
+        <!--字体大小  -->
         <init-param>
             <param-name>kaptcha.textproducer.font.size</param-name>
             <param-value>30</param-value>
