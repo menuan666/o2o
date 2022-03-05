@@ -54,7 +54,7 @@
             <param-name>kaptcha.textproducer.font.size</param-name>
             <param-value>30</param-value>
         </init-param>
-        <!--干扰线的颜色-->
+        <!--干扰线的颜 色-->
         <init-param>
             <param-name>kaptcha.noise.color</param-name>
             <param-value>black</param-value>
