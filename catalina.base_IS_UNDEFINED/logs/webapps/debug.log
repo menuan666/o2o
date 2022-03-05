@@ -1,0 +1,23 @@
+2022-03-03 13:27:27.682 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC
+2022-03-03 13:27:27.726 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2022-03-03 13:27:27.765 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2022-03-03 13:34:47.596 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC
+2022-03-03 13:34:47.721 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2022-03-03 13:34:47.743 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2022-03-03 13:34:47.753 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC
+2022-03-03 13:34:47.753 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2022-03-03 13:34:47.755 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2022-03-03 13:35:56.289 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC
+2022-03-03 13:35:56.323 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2022-03-03 13:35:56.359 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2022-03-03 13:35:56.374 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC
+2022-03-03 13:35:56.375 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2022-03-03 13:35:56.377 [main] DEBUG  com.shangpu.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2022-03-03 16:42:51.248 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-03 16:42:51.308 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2022-03-03 16:42:51.216(Timestamp), 2022-03-03 16:42:51.216(Timestamp), 0(Integer), 审核中(String)
+2022-03-03 16:42:51.337 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-03 16:42:51.370 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/11/2022030316425162819.jpg
+2022-03-03 16:42:51.370 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/11/2022030316425162819.jpg
+2022-03-03 16:42:51.849 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=?
+2022-03-03 16:42:51.850 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), upload/item/shop/11/2022030316425162819.jpg(String), 2022-03-03 16:42:51.216(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 11(Long)
+2022-03-03 16:42:51.881 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - <==    Updates: 1

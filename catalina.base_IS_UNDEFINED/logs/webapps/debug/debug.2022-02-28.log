@@ -1,0 +1,7 @@
+2022-02-28 10:03:36.639 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-02-28 10:07:03.121 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-02-28 10:07:03.177 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2022-02-28 10:07:02.237(Timestamp), null, 1(Integer), 审核中(String)
+2022-02-28 10:07:03.403 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-02-28 10:25:05.532 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=? where shop_id=?
+2022-02-28 10:25:05.583 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 1(Long)
+2022-02-28 10:25:05.812 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - <==    Updates: 1

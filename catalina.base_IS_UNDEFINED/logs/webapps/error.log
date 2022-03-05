@@ -1,0 +1,7 @@
+2022-03-01 10:54:34.136 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:07:07.686 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:09:20.322 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:13:00.297 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:18:14.856 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:27:54.350 [main] ERROR  com.shangpu.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2022-03-01 11:32:40.129 [main] ERROR  com.shangpu.util.ImageUtil - java.io.FileNotFoundException: Could not find file: E:\eclipse-workspace\o2o1\I.jpg

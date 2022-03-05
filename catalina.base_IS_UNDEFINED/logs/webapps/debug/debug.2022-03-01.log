@@ -1,0 +1,45 @@
+2022-03-01 10:54:33.655 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 10:54:33.712 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 10:54:33.622(Timestamp), 2022-03-01 10:54:33.622(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 10:54:33.718 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 10:54:33.753 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:/upload/item/shop/2/2022030110543356135.jpg
+2022-03-01 10:54:33.765 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\/upload/item/shop/2/2022030110543356135.jpg
+2022-03-01 11:07:07.602 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:07:07.646 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:07:07.573(Timestamp), 2022-03-01 11:07:07.573(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:07:07.648 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:07:07.664 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:/upload/item/shop/3/2022030111070771743.jpg
+2022-03-01 11:07:07.664 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\/upload/item/shop/3/2022030111070771743.jpg
+2022-03-01 11:09:20.225 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:09:20.275 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:09:20.197(Timestamp), 2022-03-01 11:09:20.197(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:09:20.277 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:09:20.294 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/4/2022030111092015734.jpg
+2022-03-01 11:09:20.294 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/4/2022030111092015734.jpg
+2022-03-01 11:13:00.174 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:13:00.239 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:13:00.149(Timestamp), 2022-03-01 11:13:00.149(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:13:00.242 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:13:00.266 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/5/2022030111130048622.jpg
+2022-03-01 11:13:00.266 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/5/2022030111130048622.jpg
+2022-03-01 11:18:14.765 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:18:14.811 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:18:14.741(Timestamp), 2022-03-01 11:18:14.741(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:18:14.813 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:18:14.832 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/6/2022030111181417871.jpg
+2022-03-01 11:18:14.832 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/6/2022030111181417871.jpg
+2022-03-01 11:27:54.259 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:27:54.309 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:27:54.231(Timestamp), 2022-03-01 11:27:54.231(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:27:54.311 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:27:54.328 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/7/2022030111275423697.jpg
+2022-03-01 11:27:54.328 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/7/2022030111275423697.jpg
+2022-03-01 11:32:40.019 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:32:40.077 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:32:39.992(Timestamp), 2022-03-01 11:32:39.992(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:32:40.079 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:32:40.094 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/8/2022030111324033322.jpg
+2022-03-01 11:32:40.095 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/8/2022030111324033322.jpg
+2022-03-01 11:37:18.027 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?)
+2022-03-01 11:37:18.072 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test1(String), null, null, 2022-03-01 11:37:17.996(Timestamp), 2022-03-01 11:37:17.996(Timestamp), 0(Integer), 审核中(String)
+2022-03-01 11:37:18.074 [main] DEBUG  com.shangpu.dao.ShopDao.insertShop - <==    Updates: 1
+2022-03-01 11:37:18.090 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/9/2022030111371831919.jpg
+2022-03-01 11:37:18.090 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/9/2022030111371831919.jpg
+2022-03-01 11:37:18.201 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=?
+2022-03-01 11:37:18.202 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺1(String), test1(String), test1(String), test1(String), upload/item/shop/9/2022030111371831919.jpg(String), 2022-03-01 11:37:17.996(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 9(Long)
+2022-03-01 11:37:18.203 [main] DEBUG  com.shangpu.dao.ShopDao.updateShop - <==    Updates: 1
+2022-03-01 11:55:16.425 [main] DEBUG  com.shangpu.util.ImageUtil - current relativeAdde is:upload/item/shop/10/2022030111551657051.jpg
+2022-03-01 11:55:16.426 [main] DEBUG  com.shangpu.util.ImageUtil - current quanAdde is:E:\bishe\image\upload/item/shop/10/2022030111551657051.jpg
